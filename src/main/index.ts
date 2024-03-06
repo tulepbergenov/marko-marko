@@ -10,6 +10,12 @@ function createWindow(): void {
     height: 670,
     show: false,
     autoHideMenuBar: true,
+    frame: false,
+    vibrancy: 'under-window',
+    visualEffectState: 'active',
+    titleBarStyle: 'hidden',
+    title: 'Marko',
+    trafficLightPosition: { x: 15, y: 10 },
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
