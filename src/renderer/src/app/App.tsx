@@ -1,10 +1,16 @@
 import './styles/index.css'
+import '@fontsource/roboto/400.css'
+import '@fontsource/roboto/700.css'
 
-function App(): JSX.Element {
+const App = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <main className="flex-auto">
+      <section>
+        <header>
+          <h1 className="font-bold">Hello World</h1>
+        </header>
+      </section>
+    </main>
   )
 }
 

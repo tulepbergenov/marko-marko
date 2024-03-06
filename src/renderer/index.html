@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="h-full scroll-smooth-important">
   <head>
     <meta charset="UTF-8" />
     <title>Marko Marko</title>
@@ -9,9 +9,10 @@
       content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:"
     />
   </head>
-
-  <body>
-    <div id="root"></div>
+  <body
+    class="rendering-speed h-full bg-white text-[16px] font-normal leading-[21px] text-black antialiased font-roboto"
+  >
+    <div id="root" class="flex min-h-full flex-col overflow-hidden"></div>
     <script type="module" src="/src/app/main.tsx"></script>
   </body>
 </html>
