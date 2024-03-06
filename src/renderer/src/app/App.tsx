@@ -1,3 +1,5 @@
+import './styles/index.css'
+
 function App(): JSX.Element {
   return (
     <div>
